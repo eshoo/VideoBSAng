@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html ng-app>
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +11,14 @@
 	<script src="js/bootstrap.min.js"></script>
 </head>
 <body>
+	<h1>{{greeting}}</h1>
+	<p>
+	<video caption="Rich Bryars on the news!" width="854" height="480" src="video/RichNews.mp4" controls></video>
+	</p>
+	Enter a greeting: &nbsp;
+	<input type="text" ng-model="greeting" />
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.min.js"></script>
 	
 </body>
 </html>
